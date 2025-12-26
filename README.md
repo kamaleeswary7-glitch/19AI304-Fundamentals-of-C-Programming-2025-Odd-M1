@@ -26,7 +26,33 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+
+int main() {
+    // Integer literal
+    int num = 25;
+
+    // Float literal
+    float pi = 3.14;
+
+    // Character literal
+    char grade = 'A';
+
+    // String literal
+    char name[] = "C Programming";
+
+    // Displaying the literals
+    printf("Integer literal: %d\n", num);
+    printf("Float literal: %.2f\n", pi);
+    printf("Character literal: %c\n", grade);
+    printf("String literal: %s\n", name);
+
+    return 0;
+}
+
 # Output:
+![WhatsApp Image 2025-12-26 at 6 04 24 PM](https://github.com/user-attachments/assets/566b9f23-e8af-4165-a713-c7d16eb80136)
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +83,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-# Output:
+#include <stdio.h>
+
+// Macro constant
+#define PI 3.14
+
+int main() {
+    // Constant variable
+    const int MAX = 100;
+
+    // Displaying values
+    printf("Value of macro constant PI: %.2f\n", PI);
+    printf("Value of constant variable MAX: %d\n", MAX);
+
+    return 0;
+}
+# Output:![WhatsApp Image 2025-12-26 at 6 18 14 PM](https://github.com/user-attachments/assets/d44585b8-d4da-4b51-80c5-dfa9232e3468)
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -80,8 +122,18 @@ Thus, the program was implemented and executed successfully, and the required ou
    Display their values using printf().
 ### Step 5:    
    Stop
-# Program:
+# Program:'
+#include <stdio.h>
+int main ()
+{
+  char ch = 'A';
+  printf ("%c",ch);
+return 0;
+}
+
 # Output:
+![WhatsApp Image 2025-12-26 at 6 15 29 PM](https://github.com/user-attachments/assets/c69e3611-bc0f-4d4b-af72-ced9c39203cd)
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
@@ -120,7 +172,18 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    scanf("%d%d",&x,&y);
+    int result=x&y;
+    printf("Bitwise-AND result is = %d",result);
+    return 0;
+}
 # Output:
+![WhatsApp Image 2025-12-26 at 6 13 24 PM](https://github.com/user-attachments/assets/4fe1337a-6580-4e53-a3cc-8faaa78d1e5b)
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +228,26 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-# Output:
+#include<stdio.h>
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    char *p;
+    p=&a;
+    if(*p!='A'||*p!='E'||*p!='I'||*p!='O'||*p!='U')
+    {
+        printf("%c is consonant.",*p);
+
+    }
+    else
+    {
+        printf("%c is a vowel.",*p);
+    }
+    
+}
+# Output:![WhatsApp Image 2025-12-26 at 6 11 40 PM](https://github.com/user-attachments/assets/66b67089-4a7b-4b0f-a64b-0b49971e6c3f)
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
